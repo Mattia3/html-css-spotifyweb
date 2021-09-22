@@ -4,21 +4,39 @@
   box-sizing: border-box;
 }
 
+.container_body{
+  display: flex;
+  height: calc(100vh - 67px);
+}
+
 body{
   font-family: montserrat;
   color: white;
 }
 
-.container_actionbar{
-  height: 67px;
-  background-color: #5a5a5a;
+
+
+.display-xs-none{
+  display: none;
 }
 
+.text_icon-none{
+  color: white;
+  text-decoration: none;
+}
+
+.text_color_grey{
+  color: #878787;
+  text-decoration: none;
+}
+
+
 /* Inizio Sidebar*/
+
 .container_sidebar{
   width: 38px;
   background-color: #000000;
-  height: calc(100vh - 67px);
+  padding: 6px 6px;
   display: flex;
   flex-direction: column;
 }
@@ -35,27 +53,107 @@ body{
   flex-shrink: 0;
 }
 
+.sidebar_final-icon{
+  background-color: lightgray;
+  width: 23px;
+  height: 23px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.icon-final{
+  transform: scale(.5);
+  padding-bottom: 7px;
+}
 
 
 /*Fine Sidebar*/
 
-/*Inizio Main*/
-.section_upgrade{
-  height: 65px;
-  background-color: black;
-  width: 100%;
-}
 
-.container_body{
-  display: flex;
-}
+/*Inizio Main*/
 
 .container_main_section{
-  height: calc(100vh - 67px);
   width: 100%;
   background-color: #141922;
-  
 }
+
+.container_main_padding{
+  padding: 0px 20px;
+}
+
+
+/*Inizio upgrade*/
+
+.section_upgrade{
+  background-color: black;
+  text-align: end;
+  vertical-align: middle;
+  padding: 28px 5px;
+  font-size: 12px;
+}
+
+.text-upgrade{
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10em;
+}
+
+/*Fine upgrade*/
+
+
+/*Inizio lista link*/
+ 
+.section_link-list{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 35px;
+  padding-top: 10px;
+}
+
+.section_link-list li{
+  display: inline-block;
+}
+
+.section_link-list a{
+  color: #878787;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 0px 4px;
+}
+
+/*Fine lista link*/
+
+.container_card-central{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  overflow: auto;
+}
+
+.container_card-image{
+  width: calc(100% / 2 - 4px);
+}
+
+.card-image{
+  width: 100%;
+}
+
+.container_card-text{
+  text-align: center;
+}
+
+.card-text{
+  padding: 20px 0;
+}
+
 /*Fine Main*/
 
 
+.container_actionbar{
+  height: 67px;
+  background-color: #5a5a5a;
+}
