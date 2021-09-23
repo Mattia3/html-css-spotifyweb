@@ -14,12 +14,17 @@ body{
   color: white;
 }
 
+.container_sidebar-icon li img{
+  height: 100%;
+  vertical-align: middle;
+  filter: brightness(0.5);
+}
+
 .display-xs-none{
   display: none;
 }
 
 .text_icon-none{
-  color: white;
   text-decoration: none;
 }
 
@@ -35,6 +40,24 @@ body{
   display: none;
 }
 
+.container_sidebar-icon a{
+  color: #878787;
+  font-size: 14px;
+}
+
+.icon_playlist-container{
+  padding: 10px 0;
+}
+
+.icon-playlist{
+  font-size: 33px;
+  vertical-align: middle;
+  color: #878787;
+}
+
+.text_color_grey li{
+  padding: 10px 0;
+}
 
 /* Inizio Sidebar*/
 
@@ -65,11 +88,15 @@ body{
   height: 23px;
   overflow: hidden;
   border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 7px;
 }
 
 .icon-final{
   transform: scale(.5);
   padding-bottom: 7px;
+ 
 }
 
 
@@ -94,9 +121,10 @@ body{
 .section_upgrade{
   background-color: black;
   text-align: end;
-  vertical-align: middle;
-  padding: 28px 5px;
+  line-height: 90px;
   font-size: 14px;
+  height: 90px;
+  padding-right: 10px;
 }
 
 .text-upgrade{
@@ -105,6 +133,7 @@ body{
   border: 1px solid white;
   padding: 10px;
   border-radius: 10em;
+  transition: transform .2s;
 }
 
 /*Fine upgrade*/
@@ -129,7 +158,7 @@ body{
   color: #878787;
   text-decoration: none;
   font-size: 13px;
-  padding: 0px 4px;
+  padding: 0px 19px;
 }
 
 /*Fine lista link*/
@@ -154,6 +183,10 @@ body{
   text-align: center;
 }
 
+.image-border-radius{
+  border-radius: 50%;
+}
+
 .card-text{
   padding: 20px 0;
 }
@@ -161,6 +194,22 @@ body{
 .text_subtitle{
   padding: 10px 0;
 }
+
+.icon-left-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-final-icon{
+  width: 35px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
 
 /*Fine card*/
 
@@ -191,13 +240,12 @@ body{
 }
 
 .actionbar_img{
-  width: 40px;
   display: flex;
   align-items: center;
 }
 
 .actionbar_img-left{
-  width: 100%;
+  width: 50px;
 }
 
 /*Fine actionbar left*/
@@ -254,4 +302,8 @@ body{
 
 .container_actionbar-right{
   width: 25%;
+}
+
+hr{
+  display: none;
 }

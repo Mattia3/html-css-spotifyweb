@@ -1,5 +1,7 @@
 @media screen and (max-width: 638px){
-  
+  .img_display_none{
+    display: inline-block;
+  }
   
 }
 
@@ -11,10 +13,47 @@
     width: 230px;
     padding: 20px 20px;
   }
-  .img_display_none{
-    display: none;
+
+  .container_sidebar-icon  li{
+    height: 28px;
+    display: block;
+    margin: 4px 0px;
   }
 
- 
+  .container_sidebar-icon ul{
+    padding: 28px 0;
+  }
   
+  .icon-final{
+    position: relative;
+    left: -34px;
+  }
+
+  hr{
+    display: block;
+    border-color: #282828;
+    margin: 5px 0;
+  }
+
+}
+
+
+@media  screen and (min-width: 878px){
+  .container_card-image{
+    width: calc(100% / 4 - 6px);
+    }
+  .icon-hearth {
+      padding: 0 30px;
+    }
+}
+
+
+@media screen and (min-width: 1440px){
+  .container_card-image{
+    width: calc(100% / 6 - 8px);
+    }
+    .icon-hearth {
+      padding: 0 30px;
+    }
+
 }

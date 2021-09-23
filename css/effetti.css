@@ -1,0 +1,28 @@
+.text-upgrade:hover{
+  font-size: 1.3rem;
+}
+
+.section_link-list a:hover{
+  color: white;
+}
+
+
+.container_sidebar-icon a:hover{
+  color: white;
+}
+
+.icon_playlist-container a:hover{
+  color: white;
+}
+
+.text_color_grey li:hover{
+  color: white;
+}
+
+.icon-final a:hover{
+  color: white;
+}
+
+.icon-playlist:hover{
+  color: white;
+}

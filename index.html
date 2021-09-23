@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/effetti.css">
 </head>
 
 <body>
@@ -40,18 +41,28 @@
       </div>
 
       <!--Inizio sezione none-->
+      <div>
+        <h4 class="display-xs-none">Playlist</h4>
+      </div>
+
+      <div class="icon_playlist-container">
+        <a href="#"><i class="fas fa-plus-square icon-playlist display-xs-none"></i></a>
+        <span><a class="text_color_grey display-xs-none" href="#">Crea Playlist</a></span>
+      </div>
+
       <div class="container_sidebar_playlist ">
         <div class="display-xs-none">
-          <div>
-            <h4>Playlist</h4>
-          </div>
 
           <div>
-            <i class="fas fa-plus-square"></i>
-            <span><a class="text_color_grey" href="#"> Crea Playlist</a></span>
-          </div>
-          <div>
             <ul class="text_color_grey">
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
+              <li>Nome playlist</li>
               <li>Nome playlist</li>
               <li>Nome playlist</li>
               <li>Nome playlist</li>
@@ -68,14 +79,17 @@
       <!--Inizio final icon-->
       <div class="container_sidebar_final">
         <div class="icon-final">
-          <a href="#"><img src="img/img/download.svg" alt="icon download"></a>
+          <a href="#"><img class="icon-final-icon" src="img/img/download.svg" alt="icon download"></a>
           <a class="text_color_grey display-xs-none" href="#">installa app</a>
         </div>
 
+        <hr>
+
         <div class="sidebar_final-icon">
           <img src="img/img/profile.svg" alt="profile">
-          <a class="display-xs-none text_color_grey" href="#">John Doe</a>
         </div>
+
+        <a class="display-xs-none text_color_grey" href="#">John Doe</a>
       </div>
     </div>
     <!--Fine final icon-->
@@ -231,7 +245,7 @@
           <div class="container_card-central">
 
             <div class="container_card-image">
-              <img class="card-image" src="img/img/youg.jpeg" alt="youg">
+              <img class="card-image image-border-radius" src="img/img/youg.jpeg" alt="youg">
 
               <div class="container_card-text">
                 <div class="card-text">
@@ -241,7 +255,7 @@
             </div>
 
             <div class="container_card-image">
-              <img class="card-image" src="img/img/einaudi.jpeg" alt="einaudi">
+              <img class="card-image image-border-radius" src="img/img/einaudi.jpeg" alt="einaudi">
 
               <div class="container_card-text">
                 <div class="card-text">
@@ -277,8 +291,8 @@
         </div>
       </div>
 
-      <div>
-        <i class="far fa-heart text_color_grey"></i>
+      <div class="icon-left-container">
+        <i class="far fa-heart text_color_grey icon-hearth"></i>
         <i class="far fa-folder text_color_grey"></i>
       </div>
     </div>
