@@ -14,8 +14,6 @@ body{
   color: white;
 }
 
-
-
 .display-xs-none{
   display: none;
 }
@@ -75,6 +73,7 @@ body{
 .container_main_section{
   width: 100%;
   background-color: #141922;
+  overflow: auto;
 }
 
 .container_main_padding{
@@ -89,7 +88,7 @@ body{
   text-align: end;
   vertical-align: middle;
   padding: 28px 5px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .text-upgrade{
@@ -121,17 +120,18 @@ body{
 .section_link-list a{
   color: #878787;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 13px;
   padding: 0px 4px;
 }
 
 /*Fine lista link*/
 
+/*Inizio card*/
+
 .container_card-central{
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  overflow: auto;
 }
 
 .container_card-image{
@@ -150,10 +150,90 @@ body{
   padding: 20px 0;
 }
 
+.text_subtitle{
+  padding: 10px 0;
+}
+
+/*Fine card*/
+
 /*Fine Main*/
 
 
 .container_actionbar{
   height: 67px;
-  background-color: #5a5a5a;
+  background-color: #282828;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.container_actionbar-left{
+  width: 25%;
+  display: flex;
+}
+
+.container-text-left{
+  padding: 0 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.actionbar_img{
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.actionbar_img-left{
+  width: 100%;
+}
+
+/*Fine actionbar left*/
+
+.container_actionbar-central{
+  width: 50%;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.actionbar-central_icon{
+  padding: 0 6px;
+}
+
+.play_bar{
+  height: 5px;
+  background-color: #5A5A5A;
+  display: flex;
+  flex-grow: 1;
+  border-radius: 5px;
+}
+
+
+.container_actionbar-right{
+  width: 25%;
+}
+
+.container_play_bar{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.font_number_playbar{
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.play_bar_absolute{
+  position: absolute;
+  width: 15%;
+  background-color: #C1C1C1;
+  height: 5px;
+}
+
+.play_bar_left{
+  background-color: color #878787;;
+  height: 5px;
+  flex-grow: 1;
 }
