@@ -23,9 +23,16 @@ body{
   text-decoration: none;
 }
 
+.container_sidebar-icon ul{
+  list-style: none;
+}
+
 .text_color_grey{
   color: #878787;
   text-decoration: none;
+}
+.img_display_none{
+  display: none;
 }
 
 
@@ -45,6 +52,7 @@ body{
 
 .container_sidebar_playlist{
   flex-grow: 1;
+  overflow: auto;
 }
 
 .container_sidebar_final{
@@ -158,6 +166,7 @@ body{
 
 /*Fine Main*/
 
+/*inizio actionbar-left*/
 
 .container_actionbar{
   height: 67px;
@@ -166,6 +175,8 @@ body{
   justify-content: space-between;
   align-items: center;
   padding-left: 8px;
+  z-index: 10;
+  position: relative;
 }
 
 .container_actionbar-left{
@@ -191,6 +202,8 @@ body{
 
 /*Fine actionbar left*/
 
+/*Inizio actionbar-central*/
+
 .container_actionbar-central{
   width: 50%;
   text-align: center;
@@ -207,11 +220,6 @@ body{
   display: flex;
   flex-grow: 1;
   border-radius: 5px;
-}
-
-
-.container_actionbar-right{
-  width: 25%;
 }
 
 .container_play_bar{
@@ -236,4 +244,14 @@ body{
   background-color: color #878787;;
   height: 5px;
   flex-grow: 1;
+}
+
+.container_actionbar-central i{
+  padding-bottom: 5px;
+}
+
+/*Fine actionbar-central*/
+
+.container_actionbar-right{
+  width: 25%;
 }

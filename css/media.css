@@ -1,0 +1,20 @@
+@media screen and (max-width: 638px){
+  
+  
+}
+
+@media  screen and (min-width: 639px) {
+  .display-xs-none{
+    display: inline-block;
+  }
+  .container_sidebar{
+    width: 230px;
+    padding: 20px 20px;
+  }
+  .img_display_none{
+    display: none;
+  }
+
+ 
+  
+}
