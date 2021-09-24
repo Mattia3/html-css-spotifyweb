@@ -26,3 +26,33 @@
 .icon-playlist:hover{
   color: white;
 }
+
+/*.container_card-image .overlay::after{
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.container_card-image .overlay{
+  position: relative;
+}
+
+.container_card-image .overlay::after .card-image:hover{
+  opacity: 1;
+}*/
+.section_link-list li::after{
+  content: "";
+}
+.section_link-list li a:hover{
+  background-color: lawngreen;
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+ 
+}
+
