@@ -5,7 +5,13 @@
   .border-left::after{
     display: none;
   }
-  
+  .sidebar-final{
+    border-top: 1px solid black;
+  }
+  .container_sidebar-icon  li{
+   margin: 10px 0px;
+  }
+
 }
 
 @media  screen and (min-width: 639px) {
@@ -30,12 +36,7 @@
   .icon-final{
     position: relative;
     left: -34px;
-  }
-
-  hr{
-    display: block;
-    border-color: #282828;
-    margin: 5px 0;
+    padding-top: 40px;
   }
 
 }

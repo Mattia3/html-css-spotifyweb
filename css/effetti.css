@@ -50,19 +50,8 @@ h6:hover{
   left: calc(50% - 30px);
 }
 
-.border-left::after{
-  background-color: lime;
-  position: absolute;
-  height: 2px;
-  width: 60px;
-  content: "";
-  left: -27px;
-  transform: rotate(90deg);
-  top: 124px;
-}
- 
 
-.overlay:hover:after{
+ .overlay:hover:after{
   content: "";
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -148,3 +137,4 @@ h6:hover{
   display: inline-block;
   background-color: white;
 }
+
