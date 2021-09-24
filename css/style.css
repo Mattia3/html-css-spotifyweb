@@ -285,7 +285,6 @@ body{
 }
 
 .play_bar_absolute{
-  position: absolute;
   width: 15%;
   background-color: #C1C1C1;
   height: 5px;
@@ -298,7 +297,7 @@ body{
 }
 
 .container_actionbar-central i{
-  padding-bottom: 5px;
+  padding: 11px 10px
 }
 
 /*Fine actionbar-central*/

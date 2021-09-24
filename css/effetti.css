@@ -27,7 +27,42 @@
   color: white;
 }
 
-/*.container_card-image .overlay::after{
+
+h6:hover{
+  color: white;
+}
+
+.icon-left-container i:hover{
+  color: white;
+}
+
+.icon-hover:hover{
+  font-size: 1.3rem;
+}
+
+.section_link-list a:active:after{
+  background-color: lime;
+  position: absolute;
+  height: 2px;
+  width: 60px;
+  content: "";
+  bottom: 0;
+  left: calc(50% - 30px);
+}
+
+.border-left::after{
+  background-color: lime;
+  position: absolute;
+  height: 2px;
+  width: 60px;
+  content: "";
+  left: -27px;
+  transform: rotate(90deg);
+  top: 124px;
+}
+ 
+
+.overlay:hover:after{
   content: "";
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -35,24 +70,81 @@
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0;
+  opacity: 1;
 }
 
 .container_card-image .overlay{
   position: relative;
 }
 
-.container_card-image .overlay::after .card-image:hover{
-  opacity: 1;
-}*/
-.section_link-list li::after{
-  content: "";
-}
-.section_link-list li a:hover{
-  background-color: lawngreen;
+.circle-play{
   position: absolute;
-  bottom: 0;
-  height: 2px;
- 
+  filter: invert();
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 30%;
+  display: none;
 }
 
+.overlay:hover .circle-play{
+ display: inline-block;
+ z-index: 3;
+}
+
+.overlay_2:hover::after{
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.container_card-image .overlay_2{
+  position: relative;
+}
+
+.overlay_2:hover .circle-play{
+  display: inline-block;
+  z-index: 3;
+}
+
+.play_bar_circle{
+  background-color: green;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 0;
+  left: 17%;
+  display: none;
+}
+
+.play_bar_absolute:hover{
+  background-color: green;
+}
+
+.play_bar_absolute:hover .play_bar_circle{
+  display: inline-block;
+  background-color: white;
+}
+
+.play_bar_circle-2{
+  background-color: green;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  top: 0;
+  left: 51%;
+  display: none;
+}
+
+.play_bar_absolute:hover .play_bar_circle-2{
+  display: inline-block;
+  background-color: white;
+}

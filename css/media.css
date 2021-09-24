@@ -2,6 +2,9 @@
   .img_display_none{
     display: inline-block;
   }
+  .border-left::after{
+    display: none;
+  }
   
 }
 
